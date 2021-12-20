@@ -1,0 +1,38 @@
+.header-content{
+  display: inline-flex;
+  width: 100%;
+  .logo{
+    width: 70%;
+  }
+  .logo img{
+    width: 75px;
+    height: 75px;
+  }
+  .links{
+    margin-top: 40px;
+    float: right;
+    align-items: flex-end;
+
+  }
+  .links ul li{
+    font-size: 20px;
+  }
+}
+
+
+a{
+  color: rgb(158, 158, 158);
+  font-style: none;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+li {
+  padding: 10px;
+  font-size: 50px;
+  display: inline-block;
+  list-style: none;
+
+}
+
