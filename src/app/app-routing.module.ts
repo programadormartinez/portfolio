@@ -5,8 +5,9 @@ import { MainComponent } from './pages/main/main.component';
 
 const routes: Routes = [
   {
-    path: '', component: MainComponent
-  }
+    path: '', component: MainComponent, pathMatch: 'full'
+  },
+  { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 
 @NgModule({
